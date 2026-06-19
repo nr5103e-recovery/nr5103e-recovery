@@ -78,8 +78,7 @@ silkscreened **`J28`**:
 
 ![UART header J28 on the board](images/uart-header-J28.jpg)
 
-- Settings: **921600 baud, 8N1** (8 data bits, no parity, 1 stop bit), no flow control — same
-  as the related rain101 MT6890 work.
+- Settings: **921600 baud, 8N1** (8 data bits, no parity, 1 stop bit), no flow control
 - Use a **3.3 V** USB‑TTL adapter. **Do not connect VCC** — it is not needed and back‑feeding
   power can cause problems; wire only **GND, TX, RX** (adapter TX→board RX, adapter RX→board TX),
   with the device on its own power supply.
