@@ -69,8 +69,8 @@ back. Usage is in the release notes.
 
 ## 🔌 UART serial console
 
-For watching boot, recovery, and getting a root shell, the board has a 3.3 V TTL UART header,
-silkscreened **`J28`**:
+For watching boot, recovery, and getting a root shell, the board has a 1.8 V TTL UART header,
+silkscreened **`J28`**: ( *DON'T USE 3.3 TTL UART ADAPTERS* ) 
 
 | pin 1 | pin 2 | pin 3 | pin 4 |
 |---|---|---|---|
